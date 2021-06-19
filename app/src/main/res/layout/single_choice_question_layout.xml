@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/question_padding">
+
+    <TextView
+        android:id="@+id/single_choice_question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/single_choice_question_text_view_default_label"
+        style="@style/QuestionFontStyle"/>
+
+    <RadioGroup
+        android:id="@+id/question_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/question_radio_btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_choice_text_label" />
+
+        <RadioButton
+            android:id="@+id/question_radio_btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_choice_text_label" />
+
+        <RadioButton
+            android:id="@+id/question_radio_btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_choice_text_label" />
+
+        <RadioButton
+            android:id="@+id/question_radio_btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_choice_text_label" />
+    </RadioGroup>
+
+</LinearLayout>

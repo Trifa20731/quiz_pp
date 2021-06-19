@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Quize App</string>
+    <string name="quiz_title_label">Buddhism Quiz</string>
+    <string name="submit_button_label">Submit</string>
+
+    <string name="text_question_text_view_default_label">Text Question</string>
+    <string name="single_choice_question_text_view_default_label">Single Choice Question</string>
+    <string name="multiple_choices_question_text_view_defautl_label">Multiple Choices Question</string>
+
+    <string name="default_choice_text_label">Choice</string>
+
+    <string name="single_question_1">What religious element of the Indus Valley Civilization may have been absorbed by Buddhism?</string>
+    <string-array name="single_question_1_choice">
+        <item>A. Worship of tree Correct</item>
+        <item>B. Image on seals</item>
+        <item>C. Mother goddess</item>
+        <item>D. Writing system</item>
+    </string-array>
+
+    <string name="single_question_2">What is the literal meaning of the word ‘Buddha’?</string>
+    <string-array name="single_question_2_choice">
+        <item>A. Śākyamuni</item>
+        <item>B. Awakened one</item>
+        <item>C. Siddhārtha Gautama</item>
+        <item>D. Guardian angel</item>
+    </string-array>
+
+    <string name="multiple_question_1">What are the three refuges in Buddhism?</string>
+    <string-array name="multiple_question_1_choice">
+        <item>A. Karma</item>
+        <item>B. Buddha</item>
+        <item>C. Dharma</item>
+        <item>D. Sangha</item>
+    </string-array>
+
+    <string name="multiple_question_2">What does the Buddhist disciplinary code mainly contain?</string>
+    <string-array name="multiple_question_2_choice">
+        <item>A. Training rules</item>
+        <item>B. Advice on etiquette</item>
+        <item>C. Morality</item>
+        <item>D. Ethics Incorrect</item>
+    </string-array>
+
+    <string name="text_question_1">How many divisions is any given Buddhist canon consisted of?</string>
+    <string name="text_question_1_answer">Three</string>
+
+    <string name="text_question_2">What is the Buddha’s final spiritual achievement called?</string>
+    <string name="text_question_2_answer">Nirvana</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/question_padding">
+
+    <TextView
+        android:id="@+id/multiple_choice_question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multiple_choices_question_text_view_defautl_label"
+        style="@style/QuestionFontStyle"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_choice_text_label" />
+
+    <CheckBox
+        android:id="@+id/checkbox_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_choice_text_label" />
+
+    <CheckBox
+        android:id="@+id/checkbox_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_choice_text_label" />
+
+    <CheckBox
+        android:id="@+id/checkbox_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_choice_text_label" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/quiz_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_title_label"
+        style="@style/titleFontStyle"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/single_choice_question_1"
+                layout="@layout/single_choice_question_layout" />
+
+            <include
+                android:id="@+id/single_choice_question_2"
+                layout="@layout/single_choice_question_layout" />
+
+            <include
+                android:id="@+id/multiple_choice_question_1"
+                layout="@layout/multiple_choices_question_layout" />
+
+            <include
+                android:id="@+id/multiple_choice_question_2"
+                layout="@layout/multiple_choices_question_layout" />
+
+            <include
+                android:id="@+id/text_question_1"
+                layout="@layout/text_question_layout" />
+
+            <include
+                android:id="@+id/text_question_2"
+                layout="@layout/text_question_layout" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/finish_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit_button_label" />
+
+</LinearLayout>
